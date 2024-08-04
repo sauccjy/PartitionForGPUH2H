@@ -27,6 +27,8 @@ v 1 2.0 10.1
 v 2 4.0 10.2            //vertex 2 and it's (Longitude, Latitude) = (4.0, 10.2)
 ......
 ```
+
+
 ## Run
 
 ```
@@ -42,4 +44,6 @@ v 2 4.0 10.2            //vertex 2 and it's (Longitude, Latitude) = (4.0, 10.2)
 For example, ```./Partition 13 4 1```
 will run latitude-longitude partition method on graph 13 and the partition tree height = 4.
 Those results will be recorded at './Partition/13/xxxCut.txt' and './Partition/13/xxxID.txt'. 
-The inner vertex rate in each partition will be recorded at  'xxxPartitionRate.csv'.
+
+Further more, we will calculate NUB size.
+The inner vertex rate in each partition layer will be recorded at  'xxxPartitionRate.csv'.
