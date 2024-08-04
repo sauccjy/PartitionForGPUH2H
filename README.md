@@ -39,7 +39,7 @@ v 2 4.0 10.2            //vertex 2 and it's (Longitude, Latitude) = (4.0, 10.2)
 
 'Partition Height' represents total partition Tree Height you used;
 
-'PartitionMethod' determines the partition method, if == 1, then use latitude method, and == 2 uses minimum cut with beta = 0.4;
+'PartitionMethod' determines the partition method, if == 1, then use latitude method, and == 2 uses 2-ways minimum cut in paper HC2L with beta = 0.4;
 
 For example, ```./Partition 13 4 1```
 will run latitude-longitude partition method on graph 13 and the partition tree height = 4.
